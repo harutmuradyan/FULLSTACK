@@ -5,7 +5,7 @@ const app = express();
 
 app.get('/products', function (req, res) {
     res.json(products);
-  })
+})
 
 console.log("Server running 5000")
 
